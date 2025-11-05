@@ -193,7 +193,7 @@
         .hero-section {
             position: relative;
             height: 50vh;
-            background-image: url('/images/Exclusive_collection_banner_82af1684.png');
+            background-image: url('images/Exclusive_collection_banner_82af1684.png');
             background-size: cover;
             background-position: center;
             display: flex;

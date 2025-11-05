@@ -3,7 +3,7 @@
             {
                 id: 1,
                 name: 'Smart Everyday Bag Pro',
-                image: '/images/Black_messenger_bag_product_34c50f96.png',
+                image: 'images/Black_messenger_bag_product_34c50f96.png',
                 originalPrice: 129,
                 salePrice: 89,
                 rating: 4.5,
@@ -13,7 +13,7 @@
             {
                 id: 2,
                 name: 'Travel Durable Backpack',
-                image: '/images/Brown_backpack_product_3b7a811b.png',
+                image: 'images/Brown_backpack_product_3b7a811b.png',
                 originalPrice: 99,
                 salePrice: 79,
                 rating: 4,
@@ -23,7 +23,7 @@
             {
                 id: 3,
                 name: 'Premium Laptop Bag',
-                image: '/images/Black_laptop_bag_product_6e3cd3c7.png',
+                image: 'images/Black_laptop_bag_product_6e3cd3c7.png',
                 originalPrice: 149,
                 salePrice: 119,
                 rating: 5,
@@ -33,7 +33,7 @@
             {
                 id: 4,
                 name: 'Modern Gym & Sports Bag',
-                image: '/images/Orange_gym_bag_product_6441603e.png',
+                image: 'images/Orange_gym_bag_product_6441603e.png',
                 originalPrice: 69,
                 salePrice: 49,
                 rating: 4.5,
@@ -43,7 +43,7 @@
             {
                 id: 5,
                 name: 'Waterproof Portable Speaker',
-                image: '/images/Black_wireless_speaker_db9a9df6.png',
+                image: 'images/Black_wireless_speaker_db9a9df6.png',
                 originalPrice: 89,
                 salePrice: 69,
                 rating: 4.5,
@@ -53,7 +53,7 @@
             {
                 id: 6,
                 name: 'Travel & Sports Jeans',
-                image: '/images/Blue_denim_jeans_product_e7f695c4.png',
+                image: 'images/Blue_denim_jeans_product_e7f695c4.png',
                 originalPrice: 79,
                 salePrice: 59,
                 rating: 4,
@@ -63,7 +63,7 @@
             {
                 id: 7,
                 name: 'Gaming Laptop Pro 15-inch',
-                image: '/images/Gaming_laptop_product_c3e344a5.png',
+                image: 'images/Gaming_laptop_product_c3e344a5.png',
                 originalPrice: 1299,
                 salePrice: 1099,
                 rating: 5,
@@ -73,7 +73,7 @@
             {
                 id: 8,
                 name: 'Compact Leather Wallet',
-                image: '/images/Brown_leather_wallet_f1499876.png',
+                image: 'images/Brown_leather_wallet_f1499876.png',
                 originalPrice: 49,
                 salePrice: 39,
                 rating: 4.5,
@@ -84,10 +84,10 @@
 
         // Categories data
         const categoriesData = [
-            { id: 1, name: 'Shirts', image: '/images/Category_shirts_collection_72b24cc5.png' },
-            { id: 2, name: 'Bags', image: '/images/Category_bags_collection_ff7b3ffe.png' },
-            { id: 3, name: 'Cosmetics', image: '/images/Category_cosmetics_collection_3ab3d31e.png' },
-            { id: 4, name: 'Accessories', image: '/images/Category_tech_accessories_5c731beb.png' }
+            { id: 1, name: 'Shirts', image: 'images/Category_shirts_collection_72b24cc5.png' },
+            { id: 2, name: 'Bags', image: 'images/Category_bags_collection_ff7b3ffe.png' },
+            { id: 3, name: 'Cosmetics', image: 'images/Category_cosmetics_collection_3ab3d31e.png' },
+            { id: 4, name: 'Accessories', image: 'images/Category_tech_accessories_5c731beb.png' }
         ];
 
         // Testimonials data
@@ -96,7 +96,7 @@
                 id: 1,
                 name: 'Sarah Johnson',
                 role: 'Business Professional',
-                image: '/images/Customer_testimonial_portrait_woman_467d595a.png',
+                image: 'images/Customer_testimonial_portrait_woman_467d595a.png',
                 rating: 5,
                 review: 'Absolutely love my new laptop bag! The quality is exceptional and it fits all my work essentials perfectly. Highly recommend!'
             },
@@ -104,7 +104,7 @@
                 id: 2,
                 name: 'Michael Chen',
                 role: 'Travel Enthusiast',
-                image: '/images/Customer_testimonial_portrait_man_1ed74e37.png',
+                image: 'images/Customer_testimonial_portrait_man_1ed74e37.png',
                 rating: 5,
                 review: 'Best purchase I made this year. The backpack is durable, stylish, and perfect for both work and weekend trips. Worth every penny!'
             },
@@ -112,7 +112,7 @@
                 id: 3,
                 name: 'Emily Davis',
                 role: 'Fashion Blogger',
-                image: '/images/Customer_testimonial_portrait_woman_467d595a.png',
+                image: 'images/Customer_testimonial_portrait_woman_467d595a.png',
                 rating: 5,
                 review: 'The attention to detail is incredible. These bags are not just functional but also make a great fashion statement. Love the collection!'
             }
@@ -268,7 +268,7 @@
                     console.log('Icon button clicked');
                 });
             });
-            
+
 
             // Image lazy loading
             if ('loading' in HTMLImageElement.prototype) {
