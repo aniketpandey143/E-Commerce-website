@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermes Premium | Bags & Accessories</title>
+    <meta name="description" content="Discover our premium men's bags collection 2025. Shop stylish backpacks, messenger bags, laptop bags, wallets and accessories with free shipping on orders over $50.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="header-left">
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <a href="/" class="logo" data-testid="link-logo">HERMES</a>
+                    <nav class="nav-desktop">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Products</a>
+                        <a href="#">Deals & Offers</a>
+                        <a href="#">Pages</a>
+                    </nav>
+                </div>
+
+                <div class="search-bar-desktop">
+                    <i class="fas fa-search"></i>
+                    <input type="search" placeholder="Search products...">
+                </div>
+
+                <div class="header-icons">
+                    <button class="icon-btn" aria-label="Wishlist">
+                        <i class="far fa-heart"></i>
+                        <span class="badge">2</span>
+                    </button>
+                    <button class="icon-btn" aria-label="Shopping cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">3</span>
+                    </button>
+                    <button class="icon-btn desktop-only" aria-label="Account">
+                        <i class="far fa-user"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="search-bar-mobile">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search products...">
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Products</a>
+            <a href="#">Deals & Offers</a>
+            <a href="#">Pages</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <p class="hero-subtitle">WELCOME TO HERMES PREMIUM</p>
+            <h1 class="hero-title">MEN'S BAGS</h1>
+            <p class="hero-collection">2025 Collection</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">SHOP NOW</button>
+                <button class="btn btn-outline">VIEW COLLECTION</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Categories -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Top Categories</h2>
+            <div class="categories-grid" id="categoriesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid" id="productsGrid"></div>
+            <div class="text-center">
+                <button class="btn-link">VIEW ALL PRODUCTS →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner -->
+    <section class="section">
+        <div class="container">
+            <div class="promo-banner">
+                <img src="/images/bags_fashion_image.png" alt="Promotional banner">
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Carousel -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Offers</h2>
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="/images/Exclusive_collection_banner_82af1684.png" alt="Exclusive Collection">
+                    <div class="carousel-content">
+                        <p class="carousel-subtitle">Premium Leather Bags</p>
+                        <h3 class="carousel-title">Exclusive Collection</h3>
+                        <p class="carousel-description">Get up to 30% off on selected items</p>
+                        <button class="btn btn-primary">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <button class="dot active" aria-label="Go to slide 1"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-icon">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonials-grid" id="testimonialsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section">
+        <div class="container">
+            <div class="newsletter">
+                <h2 class="section-title">Weekly Newsletter</h2>
+                <p class="newsletter-text">
+                    New Arrivals, Hot Deals & Exclusive Offers. Sign up for our newsletter & never miss a deal.
+                </p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 data-testid="text-footer-categories">CATEGORIES</h3>
+                    <ul>
+                        <li><a href="#" data-testid="link-category-men">Men</a></li>
+                        <li><a href="#" data-testid="link-category-women">Women</a></li>
+                        <li><a href="#" data-testid="link-category-kids">Kids</a></li>
+                        <li><a href="#" data-testid="link-category-accessories">Accessories</a></li>
+                        <li><a href="#" data-testid="link-category-shoes">Shoes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-testid="text-footer-services">SERVICES</h3>
+                    <ul>
+                        <li><a href="#" data-testid="link-track-order">Track Order</a></li>
+                        <li><a href="#" data-testid="link-delivery">Delivery</a></li>
+                        <li><a href="#" data-testid="link-returns">Returns</a></li>
+                        <li><a href="#" data-testid="link-warranty">Warranty</a></li>
+                        <li><a href="#" data-testid="link-gift-cards">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-testid="text-footer-tools">TOOLS</h3>
+                    <ul>
+                        <li><a href="#" data-testid="link-size-guide">Size Guide</a></li>
+                        <li><a href="#" data-testid="link-store-locator">Store Locator</a></li>
+                        <li><a href="#" data-testid="link-gift-registry">Gift Registry</a></li>
+                        <li><a href="#" data-testid="link-app">Mobile App</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-testid="text-footer-support">SUPPORT</h3>
+                    <ul>
+                        <li><a href="#" data-testid="link-help-center">Help Center</a></li>
+                        <li><a href="#" data-testid="link-contact">Contact Us</a></li>
+                        <li><a href="#" data-testid="link-faq">FAQ</a></li>
+                        <li><a href="#" data-testid="link-privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-testid="link-terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook" data-testid="link-social-facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter" data-testid="link-social-twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram" data-testid="link-social-instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube" data-testid="link-social-youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa" aria-label="Visa"></i>
+                    <i class="fab fa-cc-mastercard" aria-label="Mastercard"></i>
+                    <i class="fab fa-cc-paypal" aria-label="PayPal"></i>
+                    <i class="fab fa-cc-amex" aria-label="American Express"></i>
+                </div>
+            </div>
+
+            <div class="copyright" data-testid="text-copyright">
+                <p>© 2025 Aniket Pandey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
