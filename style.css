@@ -39,8 +39,6 @@
             background: var(--bg-white);
             border-bottom: 1px solid var(--border-color);
             z-index: 1000;
-                        animation: slideInLeft 3s ease; 
-
         }
 
         .header-main {
@@ -154,10 +152,6 @@
             transition: var(--transition);
 
         }
-        #cart-icon {
-            animation: heartbeat 3s ease-in-out infinite both;
-
-        }
 
         .icon-btn:hover {
             background: var(--bg-light);
@@ -261,11 +255,6 @@
         .btn-primary {
             background: var(--primary-color);
             color: white;
-
-        }
-
-        #shop-now-btn {
-            animation: heartbeat 3s ease-in-out infinite both;
 
         }
 
